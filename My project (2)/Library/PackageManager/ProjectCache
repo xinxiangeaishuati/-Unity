@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639007615758562872
-    m_Hash: 826546907
+      ticks: 639013594348742133
+    m_Hash: 834158003
   m_LockFileStatus:
     m_FilePath: "E:/Git/\u671F\u672BUnity/My project (2)/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639007615758598057
-    m_Hash: 3985957467
+      ticks: 639013594348772074
+    m_Hash: 17953367
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -769,6 +769,7 @@ m_ResolvedPackages:
     - 1.8.7
     - 1.8.8
     - 1.8.9
+    - 1.8.10
     compatible:
     - 1.7.7
     - 1.8.0
@@ -781,6 +782,7 @@ m_ResolvedPackages:
     - 1.8.7
     - 1.8.8
     - 1.8.9
+    - 1.8.10
     recommended: 1.7.7
     deprecated: []
   dependencies:
@@ -1507,6 +1509,113 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
+- packageId: com.unity.xr.mock-hmd@1.5.0-exp.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.5.0-exp.1
+  source: 1
+  resolvedPath: "E:\\Git\\\u671F\u672BUnity\\My project (2)\\Library\\PackageCache\\com.unity.xr.mock-hmd@1.5.0-exp.1"
+  assetPath: Packages/com.unity.xr.mock-hmd
+  name: com.unity.xr.mock-hmd
+  displayName: MockHMD XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Provides rendering and input support for XR MockHMD.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.1-preview.3
+    - 1.0.1-preview.4
+    - 1.0.1-preview.5
+    - 1.0.1-preview.6
+    - 1.0.1-preview.7
+    - 1.1.0-preview.1
+    - 1.1.1-preview.1
+    - 1.1.2-preview.1
+    - 1.1.3-preview.1
+    - 1.2.0-preview.1
+    - 1.3.0-preview.1
+    - 1.3.1-preview.1
+    - 1.4.0-preview.2
+    - 1.5.0-exp.1
+    compatible:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.1-preview.3
+    - 1.0.1-preview.4
+    - 1.0.1-preview.5
+    - 1.0.1-preview.6
+    - 1.0.1-preview.7
+    - 1.1.0-preview.1
+    - 1.1.1-preview.1
+    - 1.1.2-preview.1
+    - 1.1.3-preview.1
+    - 1.2.0-preview.1
+    - 1.3.0-preview.1
+    - 1.3.1-preview.1
+    - 1.4.0-preview.2
+    - 1.5.0-exp.1
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.5.3
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.5.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.5.2
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.12
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  keywords:
+  - mock-hmd
+  - xr
+  - reality
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639010203920000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.mock-hmd@1.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.mock-hmd.git
+    revision: 60530775eb37cecf77dbba39eb246e23ab8c2d7b
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.xr.openxr@1.14.3
   testable: 0
   isDirectDependency: 1
@@ -1575,6 +1684,7 @@ m_ResolvedPackages:
     - 1.16.0-pre.1
     - 1.16.0-pre.2
     - 1.16.0
+    - 1.16.1
     compatible:
     - 1.14.3
     - 1.15.0-pre.1
@@ -1584,6 +1694,7 @@ m_ResolvedPackages:
     - 1.16.0-pre.1
     - 1.16.0-pre.2
     - 1.16.0
+    - 1.16.1
     recommended: 1.14.3
     deprecated: []
   dependencies:
